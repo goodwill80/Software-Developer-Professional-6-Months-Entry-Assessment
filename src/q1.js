@@ -25,7 +25,7 @@ console.log("Values before invoking swap function....:")
     console.log(y);
 
 if(swap(x, y) === -1) {
-    console.log("Opps Error: x and y variables must be intergers")
+    console.log("Opps! Error: Both x and y variables are NOT intergers")
     return
 } else {
     [ x, y ] = swap(x, y);
