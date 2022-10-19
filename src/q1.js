@@ -20,13 +20,16 @@ function swap (x, y) {
 // Task 2: Add code here
 let x = 10;
 let y = 20;
+console.log("Values before invoking swap function....:")
+    console.log(x);
+    console.log(y);
 
 if(swap(x, y) === -1) {
-    console.log("Error: x and y variables must be intergers")
+    console.log("Opps Error: x and y variables must be intergers")
     return
 } else {
     [ x, y ] = swap(x, y);
-    console.log("After invoking swap function....:")
+    console.log("Values after invoking swap function....:")
     console.log(x);
     console.log(y);
 }
